@@ -12,27 +12,27 @@ const NavBar = () => {
                 </button>
                 <div class="navbar-collapse collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">SHOP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ'S</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">AUTENTICITY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">RETURN & REFUNDS</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ'S</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">AUTENTICITY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RETURN & REFUNDS</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
