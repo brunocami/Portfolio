@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
-import {ProjectData} from '../constants/constants'
-import Travel from '../assets/images/travel.jpg'
+import {ProjectData} from '../../constants/constants'
+import Travel from '../../assets/images/travel.jpg'
 
 function Project(props) {
   return (
@@ -27,7 +27,7 @@ function Project(props) {
                          <div className="mask__effect"></div>
                      </div>
                      <div className="project__meta absolute">
-                     <h5 className="project__text">Development</h5>
+                     <h5 className="project__text">{item.name}</h5>
                      <a href={item.url} className="project__btn">View Details</a>
                      </div>
                  </a>

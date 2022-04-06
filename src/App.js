@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Project from './components/Project';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Project from './components/Project/Project';
+import Contact from './components/Contact/Contact';
 import Carrousel from './components/animations/carrousel/carrousel';
 
 function App() {

@@ -1,3 +1,6 @@
+import Travel from '../assets/images/travel.jpg'
+import Review from '../assets/images/review.jpg'
+
 export const AboutData = [
   {
     aptitud: 'JavaScript'
@@ -43,24 +46,24 @@ export const AboutData = [
 export const ProjectData = [
   {
     id: 0,
-    image: "../assets/images/travel.jpg",
+    image: {Travel},
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/tours_app/"
   },
   {
     id: 1,
-    image: "../assets/images/travel.jpg",
-    name: "Travel Tours",
+    image: {Review},
+    name: "Reviews Gallery",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/reviews"
   },
   {
     id: 2,
     image: "../assets/images/travel.jpg",
-    name: "Travel Tours",
+    name: "Birthay Reminder",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/birthday_reminder/"
   },
   {
     id: 3,

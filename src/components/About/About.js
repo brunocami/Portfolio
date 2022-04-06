@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
-import { AboutData } from '../constants/constants'
-import MiFoto from '../assets/images/about.jpg';
+import { AboutData } from '../../constants/constants'
+import MiFoto from '../../assets/images/about.jpg';
  
 function About(props) {
  
@@ -9,7 +9,7 @@ function About(props) {
         <div className='about component__space'  ref={props.goToAbout}>
             <div className="container">
                 <div className="row">
-                    <div className="col__2">
+                    <div className="col__2 square__img">
                         <img src={MiFoto} alt="" className="about__img" />
                     </div>
                     <div className="col__2">
