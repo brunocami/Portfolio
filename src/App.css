@@ -134,9 +134,33 @@ button.btn {
   margin-bottom: 15px;
 }
 button.about.btn.pointer:hover {
-  background: #fff;
-  color: #000!important;
+  background: rgba(249,0,77,.5);
 }
+
+h1.heading {
+  font-size: 60px;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+p.heading.p__color {
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
+.sectionDivider {
+  width: 64px;
+  height: 6px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  background-color: #fff;
+  background: linear-gradient(270deg, #f61b12 0%, #ef0961 100%);
+}
+
+
 /* RESPONSIVE */
 @media only screen and (max-width: 768px){
 .col__2 {

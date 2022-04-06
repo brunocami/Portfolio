@@ -1,0 +1,52 @@
+.about {
+    background: #010101;
+}
+
+img.about__img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+h1.about__heading {
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: start;
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+}
+
+button.about.btn.pointer {
+    text-transform: capitalize;
+    margin: 5px;
+    width: 195px;
+    height: 55px;
+    font-size: 18px;
+    transition: .7s ease;
+}
+
+.about__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.aptitudes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.bttn {
+    padding: 8px 20px;
+    margin: 5px;
+    background-color:rgba(239, 9, 97, 0.3);
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #f61b12 , #ef0961);
+    border-image-slice: 1;
+    color: rgb(210, 210, 210);
+    cursor:default;
+}
