@@ -136,12 +136,12 @@
       color: #242424;
       border-radius: 0;
     }
-  
+/*   
     .navbar-logo {
       position: absolute;
       top: 0;
       left: 0;
-    }
+    } */
   
     .menu-icon {
       display: block;
@@ -179,9 +179,9 @@
       transition: 250ms;
     }
 
-    .icons__container {
+    /* .icons__container {
       display: none;
-    }
+    } */
   }
   
   /* NAVBAR END */

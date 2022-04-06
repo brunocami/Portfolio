@@ -1,60 +1,30 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { IconContext } from "react-icons";
 import { FaGithub, FaLinkedin, FaBold } from 'react-icons/fa';
 import './NavBar.css';
 
 
 const Navbar = (props) => {
-    const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
-
-
-
-    const handleClick = () => {
-        setClick(!click)
-    }
-
-    const closeMobileMenu = () => {
-        setClick(false);
-    }
-
-    const showButton = () => {
-        if (window.innerWidth <= 960) {
-            setButton(false)
-        } else {
-            setButton(true)
-        }
-    }
-
-    useEffect(() => {
-        showButton()
-    }, [])
-
-    window.addEventListener('resize', showButton)
 
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <div to="/" className="navbar-logo" onClick={props.goToHome}>
+                <div className="navbar-logo" onClick={props.goToHome}>
                     <IconContext.Provider value={{ size: '1.5em', color: '#F9004D' }}>
                         <FaBold/>
                     </IconContext.Provider>
                 </div>
                 <div className="links__container">
-                    <div className="menu-icon" onClick={handleClick}>
-                        <i className={click ? 'bi bi-chevron-left' : 'bi bi-list red'} />
-                    </div>
-                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                    <ul className='nav-menu'>
                         <li className="nav-item">
                             <div to='/' className='nav-links' onClick={props.goToHome}>
                                 Home
                             </div>
                         </li>
                         <li>
-                            <Link to='/products' className='nav-links' onClick={props.goToProjects}>
+                            <div className='nav-links' onClick={props.goToProjects}>
                                 Projects
-                            </Link>
+                            </div>
                         </li>
                         <li className="nav-item">
                             <div className='nav-links' onClick={props.goToAbout}>

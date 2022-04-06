@@ -1,5 +1,5 @@
 .about {
-    background: #010101;
+    background: transparent;
 }
 
 img.about__img {
@@ -49,4 +49,12 @@ button.about.btn.pointer {
     border-image-slice: 1;
     color: rgb(210, 210, 210);
     cursor:default;
+}
+
+@media screen and (max-width: 768px) {
+    img.about__img {
+        border-radius: 50%;
+        width: 400px; 
+        height: 400px;
+    }
 }

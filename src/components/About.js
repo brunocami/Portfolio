@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './About.css';
 import { AboutData } from '../constants/constants'
 import MiFoto from '../assets/images/about.jpg';

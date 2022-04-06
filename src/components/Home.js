@@ -3,7 +3,6 @@ import './Home.css';
 
 
 
-
 function Home(props) {
     return (
         <div className='home' ref={props.goToHome}>
@@ -25,7 +24,7 @@ function Home(props) {
                             </h4>
                         </div>
                     </div>
-                    <div className="spin-container">
+                    {/* <div className="spin-container">
                         <div class="cube-container spin">
                             <div class="cube">
                                 <figure class="side front">
@@ -48,7 +47,11 @@ function Home(props) {
                                 </figure>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
+                    {/* <div className="spin-container">
+                        
+                    </div> */}
                 </div>
 
 

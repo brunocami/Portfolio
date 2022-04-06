@@ -6,6 +6,9 @@ export const AboutData = [
     aptitud: 'ReactJs'
   },
   {
+    aptitud: 'NodeJs'
+  },
+  {
     aptitud: 'HTML'
   },
   {
