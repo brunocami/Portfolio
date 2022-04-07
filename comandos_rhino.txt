@@ -1,0 +1,9 @@
+#comandos para hacer jarronefa-spin
+comando flow
+caja delimitado
+bend(doblar o curvar)
+twist (retorcer)
+taper
+
+rombos se~nalados por flecha
+untrim

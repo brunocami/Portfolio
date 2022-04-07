@@ -35,10 +35,10 @@ const Navbar = (props) => {
 
                     <div className="icons__container">
                         <IconContext.Provider value={{ size: '1.5em' }}>
-                            <a href="https://github.com/brunocami" style={{ margin: "5px;" }}>
+                            <a href="https://github.com/brunocami" target="_blank" style={{ margin: "5px;" }}>
                                 <FaGithub />
                             </a>
-                            <a href="https://www.linkedin.com/in/bruno-cami-6126441b1/" style={{ margin: "5px;" }}>
+                            <a href="https://www.linkedin.com/in/bruno-cami-6126441b1/" target="_blank" style={{ margin: "5px;" }}>
                                 <FaLinkedin />
                             </a>
                         </IconContext.Provider>

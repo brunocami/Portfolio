@@ -1,6 +1,3 @@
-import Travel from '../assets/images/travel.jpg'
-import Review from '../assets/images/review.jpg'
-
 export const AboutData = [
   {
     aptitud: 'JavaScript'
@@ -46,44 +43,50 @@ export const AboutData = [
 export const ProjectData = [
   {
     id: 0,
-    image: {Travel},
+    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/tours_app/",
+    githubUrl: "https://github.com/brunocami/tours_app",
   },
   {
     id: 1,
-    image: {Review},
+    image: "/images/review.jpg",
     name: "Reviews Gallery",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/reviews"
+    url: "https://brunocami.github.io/reviews",
+    githubUrl: "https://github.com/brunocami/reviews",
   },
   {
     id: 2,
-    image: "../assets/images/travel.jpg",
+    image: "/images/travel.jpg",
     name: "Birthay Reminder",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/birthday_reminder/"
+    url: "https://brunocami.github.io/birthday_reminder/",
+    githubUrl: "https://github.com/brunocami/birthday_reminder",
   },
   {
     id: 3,
-    image: "../assets/images/travel.jpg",
+    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/tours_app/",
+    githubUrl: "https://github.com/brunocami/tours_app",
   },
   {
     id: 4,
-    image: "../assets/images/travel.jpg",
+    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/tours_app/",
+    githubUrl: "https://github.com/brunocami/tours_app",
   },
   {
     id: 4,
-    image: "../assets/images/travel.jpg",
+    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/"
+    url: "https://brunocami.github.io/tours_app/",
+    githubUrl: "https://github.com/brunocami/tours_app",
   },
 ]
