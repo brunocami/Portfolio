@@ -1,10 +1,16 @@
 import React from "react";
 import "./Project.css";
-import Portfolio from '../../assets/images/portfolio-2.jpg'
+import Portfolio1 from '../../assets/images/portfolio-1.jpg'
+import Portfolio2 from '../../assets/images/portfolio-2.jpg'
+import Portfolio3 from '../../assets/images/portfolio-3.jpg'
+import Portfolio4 from '../../assets/images/portfolio-4.jpg'
 import { ProjectData } from '../../constants/constants';
 import { FaExternalLinkAlt} from 'react-icons/fa';
 
 function Project(props) {
+
+
+
   return (
     <div className="project component__space" id="Portfolio" ref={props.goToProjects}>
       <div className="heading">
@@ -23,7 +29,7 @@ function Project(props) {
               <a href={url} className="pointer relative">
                 <div className="project__box__img pointer relative">
                   <div className="project__img__box">
-                    <img src={Portfolio} alt="" className="project__img" />
+                    {name==='Travel Tours' ?  <img src={Portfolio1} alt="" className="project__img" /> : name==='Reviews Gallery' ?  <img src={Portfolio2} alt="" className="project__img" /> : <img src={Portfolio3} alt="" className="project__img" />}
                   </div>
                   <div className="mask__effect"></div>
                 </div>
