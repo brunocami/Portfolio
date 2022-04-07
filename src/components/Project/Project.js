@@ -1,6 +1,6 @@
 import React from "react";
 import "./Project.css";
-import travel from '../../assets/images/travel_01.jpg'
+import Portfolio from '../../assets/images/portfolio-2.jpg'
 import { ProjectData } from '../../constants/constants';
 import { FaExternalLinkAlt} from 'react-icons/fa';
 
@@ -8,12 +8,12 @@ function Project(props) {
   return (
     <div className="project component__space" id="Portfolio" ref={props.goToProjects}>
       <div className="heading">
-        <h1 className="heading">My Latest Project</h1>
+        <h1 className="heading">Mis Proyectos</h1>
         <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
+          Algunos proyectos que estuver realizando con ReactJs
         </p>
         <p className="heading p__color">
-          but the majority have suffered alteration.
+          para demostrar mis aptitudes
         </p>
       </div>
       <div className="container project__container">
@@ -23,7 +23,7 @@ function Project(props) {
               <a href={url} className="pointer relative">
                 <div className="project__box__img pointer relative">
                   <div className="project__img__box">
-                    <img src={travel} alt="" className="project__img" />
+                    <img src={Portfolio} alt="" className="project__img" />
                   </div>
                   <div className="mask__effect"></div>
                 </div>
@@ -40,7 +40,7 @@ function Project(props) {
         </div>
         <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
           <button className="view__more pointer btn">
-            <a href="https://github.com/brunocami" target="_blank">View more</a> 
+            <a href="https://github.com/brunocami" target="_blank">Ver Más</a> 
           </button>
         </div>
       </div>

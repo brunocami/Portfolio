@@ -24,7 +24,7 @@ img.project__img::after {
     opacity: 1;
 }
 
-.mask__effect {
+/* .mask__effect {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -35,12 +35,12 @@ img.project__img::after {
     transition: .4s;
     opacity: .3;
     display: none;
-}
+} */
 
-.project__box:hover .mask__effect {
+/* .project__box:hover .mask__effect {
     display: inline;
     transform: scale(1.1);
-}
+} */
 
 .project__box:hover img.project__img {
     transform: scale(1.1);

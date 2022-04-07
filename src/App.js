@@ -41,11 +41,11 @@ const goToContactSection = ()=>  window.scrollTo({
   return (
     <div className="App">
         <Router>
-            <Navbar goToAbout={goToAboutSection} goToHome={goToHomeSection} goToProjects={goToProjectsSection} goToContact={goToContactSection}/>
+            <Navbar goToAbout={goToAboutSection} goToHome={goToHomeSection} goToProjects={goToProjectsSection} />
             <Carrousel/>
             <Home goToHome={homeSection}/>
             <Project goToProjects={projectsSection}/>
-            <About goToAbout={aboutSection}/>
+            <About goToAbout={aboutSection} goToContact={goToContactSection}/>
             <Contact goToContact={contactSection}/>
         </Router>
     </div>

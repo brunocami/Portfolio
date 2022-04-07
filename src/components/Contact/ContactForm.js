@@ -15,7 +15,7 @@ const ContactForm = ({ submitForm }) => {
         <form onSubmit={handleSubmit} className="contact__box" noValidate>
             <div className="input__box">
                 <input type="text" className="contact name" name='name' placeholder="Nombre *" value={values.username} onChange={handleChange} />
-                {errors.username && <p style={{color: "white"}}>{errors.username}</p>}
+                {errors.username && <p className="errors">{errors.username}</p>}
                 <input
                     type="email"
                     name='email'
@@ -24,7 +24,7 @@ const ContactForm = ({ submitForm }) => {
                     value={values.email}
                     onChange={handleChange}
                 />
-                {errors.email && <p style={{color: "white"}}>{errors.email}</p>}
+                {errors.email && <p  className="errors">{errors.email}</p>}
                 <textarea name="message" id="message" placeholder="Write Your message"></textarea>
                 <button className="btn contact pointer" type="submit">Enviar</button>
             </div>

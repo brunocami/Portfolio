@@ -14,14 +14,11 @@ function Home(props) {
                                 WELCOME TO MY WORLD
                             </h1>
                             <h2 className="home__text pz__10">
-                                Hi, I'm Bruno Cami
+                                Hola, Soy Bruno Cami
                             </h2>
                             <h3 className="home__text sweet">
-                                JS Developer
+                                Full Stack Developer
                             </h3>
-                            <h4 className="home__text pz__10">
-                                Based in Argentina
-                            </h4>
                         </div>
                     </div>
                     {/* <div className="spin-container">

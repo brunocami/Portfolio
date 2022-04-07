@@ -17,7 +17,7 @@ function Contact(props) {
 
 
     return (
-        <div className="contact component__space" id="Contact">
+        <div className="contact component__space" id="Contact" ref={props.goToContact}>
             <div className="row">
                 <div className="col__2">
                     <div className="contact__meta">

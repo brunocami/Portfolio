@@ -133,7 +133,7 @@ button.btn {
   font-family: Poppins,sans-serif;
   margin-bottom: 15px;
 }
-button.about.btn.pointer:hover {
+button.btn.pointer:hover {
   background: rgba(249,0,77,.5);
 }
 

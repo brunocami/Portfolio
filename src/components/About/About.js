@@ -2,8 +2,16 @@ import React from 'react'
 import './About.css';
 import { AboutData } from '../../constants/constants'
 import MiFoto from '../../assets/images/about-1.jpg';
+import { saveAs } from "file-saver";
  
 function About(props) {
+
+    const saveFile = () => {
+        saveAs(
+          "../../assets/Resume/Bruno's Resume.pdf",
+          "BrunoCamiResume.pdf"
+        );
+      };
  
     return (
         <div className='about component__space'  ref={props.goToAbout}>
@@ -38,8 +46,8 @@ function About(props) {
                                 ))}
                             </div>
                             <div className="about__button d__flex align__items__center">
-                                <a href=""><button className='about btn pointer'>Download CV</button></a>
-                                <a href=""><button className='about btn pointer'>Hire Me</button></a>
+                                <a href=""><button className='about btn pointer' onClick={saveFile}>Download CV</button></a>
+                                <button className='about btn pointer' onClick={props.goToContact}>Contacto</button>
                             </div>
                         </div>
                     </div>
