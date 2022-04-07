@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import { AboutData } from '../../constants/constants'
-import MiFoto from '../../assets/images/about.jpg';
+import MiFoto from '../../assets/images/about-1.jpg';
  
 function About(props) {
  

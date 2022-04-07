@@ -28,9 +28,6 @@ function Contact(props) {
                     <ContactForm submitForm={submitForm}/>
                     <ToastContainer />
                 </div>
-                <div className="col__2" style={{ margin: "auto" }}>
-                    <img src={contactImg} alt="" className="contact__img" style={{ maxWidth: "500px" }} />
-                </div>
             </div>
         </div>
     )
