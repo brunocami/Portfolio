@@ -43,7 +43,6 @@ export const AboutData = [
 export const ProjectData = [
   {
     id: 0,
-    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/tours_app/",
@@ -51,7 +50,6 @@ export const ProjectData = [
   },
   {
     id: 1,
-    image: "/images/review.jpg",
     name: "Reviews Gallery",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/reviews",
@@ -59,7 +57,6 @@ export const ProjectData = [
   },
   {
     id: 2,
-    image: "/images/travel.jpg",
     name: "Birthay Reminder",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/birthday_reminder/",
@@ -67,7 +64,13 @@ export const ProjectData = [
   },
   {
     id: 3,
-    image: "/images/travel.jpg",
+    name: "Quiz Maker",
+    description: "web de tours de viajes con Reactjs",
+    url: "https://brunocami.github.io/quiz",
+    githubUrl: "https://github.com/brunocami/quiz",
+  },
+  {
+    id: 4,
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/tours_app/",
@@ -75,15 +78,6 @@ export const ProjectData = [
   },
   {
     id: 4,
-    image: "/images/travel.jpg",
-    name: "Travel Tours",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/",
-    githubUrl: "https://github.com/brunocami/tours_app",
-  },
-  {
-    id: 4,
-    image: "/images/travel.jpg",
     name: "Travel Tours",
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/tours_app/",

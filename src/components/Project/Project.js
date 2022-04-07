@@ -29,7 +29,7 @@ function Project(props) {
               <a href={url} className="pointer relative">
                 <div className="project__box__img pointer relative">
                   <div className="project__img__box">
-                    {name==='Travel Tours' ?  <img src={Portfolio1} alt="" className="project__img" /> : name==='Reviews Gallery' ?  <img src={Portfolio2} alt="" className="project__img" /> : <img src={Portfolio3} alt="" className="project__img" />}
+                    {name==='Travel Tours' ?  <img src={Portfolio1} alt="" className="project__img" /> : name==='Reviews Gallery' ?  <img src={Portfolio2} alt="" className="project__img" /> : name==='Birthay Reminder' ?  <img src={Portfolio3} alt="" className="project__img" /> : <img src={Portfolio4} alt="" className="project__img" />}
                   </div>
                   <div className="mask__effect"></div>
                 </div>
