@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import contactImg from "../../assets/images/about-9.jpg"
 import ContactForm from './ContactForm';
 import { ToastContainer, toast } from 'react-toastify';
 

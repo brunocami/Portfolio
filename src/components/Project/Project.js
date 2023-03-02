@@ -14,12 +14,9 @@ function Project(props) {
   return (
     <div className="project component__space" id="Portfolio" ref={props.goToProjects}>
       <div className="heading">
-        <h1 className="heading">Mis Proyectos</h1>
+        <h1 className="heading">My Projects</h1>
         <p className="heading p__color">
-          Algunos proyectos que estuver realizando con ReactJs
-        </p>
-        <p className="heading p__color">
-          para demostrar mis aptitudes
+          Some projects realized with React js
         </p>
       </div>
       <div className="container project__container">

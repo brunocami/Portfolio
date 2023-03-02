@@ -6,7 +6,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
-import Carrousel from './components/animations/carrousel/carrousel';
 
 function App() {
 
@@ -42,7 +41,6 @@ const goToContactSection = ()=>  window.scrollTo({
     <div className="App">
         <Router>
             <Navbar goToAbout={goToAboutSection} goToHome={goToHomeSection} goToProjects={goToProjectsSection} />
-            <Carrousel/>
             <Home goToHome={homeSection}/>
             <Project goToProjects={projectsSection}/>
             <About goToAbout={aboutSection} goToContact={goToContactSection}/>

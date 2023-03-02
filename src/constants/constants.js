@@ -3,6 +3,9 @@ export const AboutData = [
     aptitud: 'JavaScript'
   },
   {
+    aptitud: 'Python'
+  },
+  {
     aptitud: 'ReactJs'
   },
   {
@@ -68,19 +71,5 @@ export const ProjectData = [
     description: "web de tours de viajes con Reactjs",
     url: "https://brunocami.github.io/quiz",
     githubUrl: "https://github.com/brunocami/quiz",
-  },
-  {
-    id: 4,
-    name: "Travel Tours",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/",
-    githubUrl: "https://github.com/brunocami/tours_app",
-  },
-  {
-    id: 4,
-    name: "Travel Tours",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/",
-    githubUrl: "https://github.com/brunocami/tours_app",
   },
 ]

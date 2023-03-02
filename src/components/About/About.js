@@ -1,20 +1,20 @@
 import React from 'react'
 import './About.css';
 import { AboutData } from '../../constants/constants'
-import MiFoto from '../../assets/images/about-1.jpg';
+import MiFoto from '../../assets/images/resume.png';
 import { saveAs } from "file-saver";
- 
+
 function About(props) {
 
     const saveFile = () => {
         saveAs(
-          "../../assets/Resume/Bruno's Resume.pdf",
-          "BrunoCamiResume.pdf"
+            "../../assets/Resume/resume[2023]_english",
+            "BrunoCamiResume.pdf"
         );
-      };
- 
+    };
+
     return (
-        <div className='about component__space'  ref={props.goToAbout}>
+        <div className='about component__space' ref={props.goToAbout}>
             <div className="container">
                 <div className="row">
                     <div className="col__2 square__img">
@@ -24,20 +24,22 @@ function About(props) {
                         <div className="sectionDivider"></div>
 
                         <h1 className="about__heading">
-                            Sobre Mi
+                            About Me
                         </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                                Actualmente me encuentro estudiando diseño industrial en el Instituto de Tecnología ORT, donde hago uso constante de herramientas para el diseño digital, desde PHOTOSHOP, ILLUSTRATOR para el diseño grafico hasta RHINOCEROS, AUTOCAD, KEYSHOT para el diseño en 3D.
+                                In 2022 i’ve graduated as an industrial designer and I’ve been
+                                studying web development since 2020. In all these years I’ve taken
+                                Full Stack, Advanced Javascript, ReactJs development and Data
+                                Science course and i’ve learn many skills in diferent technologies.
                             </p>
                             <p className="about__text p__color">
-                                En 2020 comencé a estudiar programación arrancando desde JavaScript, completando el curso de Digital House "Programacion Web Full Stack" donde aprendí con profundidad los conceptos de JAVASCRIPT, HTML, CSS y SQL necesarios para el desarrollo web.
+                                I have 1 year experience working as a Front End developer at
+                                ReachOut, where I was able to put my knwoledge into practice and
+                                learned the work dynamics of an IT team.
+                                I am currently available to start working full time.
                             </p>
-                            <p className="about__text p__color">
-                                En 2021 continúe mi formación aprendiendo a desarrollar en REACTJS, mientras hacia una experiencia laboral en la empresa ReachOut como DESARROLLADOR WEB Jr. <br />
-                                <div className="sectionDivider"></div>
-                                APTITUDES<br />
-                            </p>
+
                             <div className="aptitudes">
                                 {AboutData.map(item => (
                                     <div className="bttn">
