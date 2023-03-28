@@ -3,15 +3,16 @@ import './About.css';
 import { AboutData } from '../../constants/constants'
 import MiFoto from '../../assets/images/resume.png';
 import { saveAs } from "file-saver";
+import resume from "../../assets/Resume/resume[2023]_english.pdf"; // Import the file
 
 function About(props) {
 
-    const saveFile = () => {
-        saveAs(
-            "../../assets/Resume/resume[2023]_english",
-            "BrunoCamiResume.pdf"
-        );
-    };
+    // const saveFile = () => {
+    //     saveAs(
+    //         "../../assets/Resume/resume[2023]_english",
+    //         "BrunoCamiResume.pdf"
+    //     );
+    // };
 
     return (
         <div className='about component__space' ref={props.goToAbout}>
@@ -48,7 +49,7 @@ function About(props) {
                                 ))}
                             </div>
                             <div className="about__button d__flex align__items__center">
-                                {/* <a href=""><button className='about btn pointer' onClick={saveFile}>Download CV</button></a> */}
+                                <a href={resume}><button className='about btn pointer'>Download CV</button></a>
                                 <button className='about btn pointer' onClick={props.goToContact}>Contacto</button>
                             </div>
                         </div>
