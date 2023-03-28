@@ -18,7 +18,7 @@ export const AboutData = [
     aptitud: 'CSS'
   },
   {
-    aptitud: 'DataBase'
+    aptitud: 'SQL'
   },
   {
     aptitud: 'Fron-End'
@@ -47,28 +47,28 @@ export const ProjectData = [
   {
     id: 0,
     name: "Travel Tours",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/tours_app/",
-    githubUrl: "https://github.com/brunocami/tours_app",
+    description: "Web de tours de viajes con Reactjs",
+    url: "https://brunocami.github.io/travel_planner/",
+    githubUrl: "https://github.com/brunocami/travel_planner",
   },
   {
     id: 1,
-    name: "Reviews Gallery",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/reviews",
+    name: "NFT Gallery",
+    description: "NFT Market place project",
+    url: "https://brunocami.github.io/NFT-Website/",
     githubUrl: "https://github.com/brunocami/reviews",
   },
   {
     id: 2,
-    name: "Birthay Reminder",
-    description: "web de tours de viajes con Reactjs",
-    url: "https://brunocami.github.io/birthday_reminder/",
-    githubUrl: "https://github.com/brunocami/birthday_reminder",
+    name: "Crypto Wallet",
+    description: "Crypto Wallet page",
+    url: "https://brunocami.github.io/crypto_wallet_test/",
+    githubUrl: "https://github.com/brunocami/crypto_wallet_test",
   },
   {
     id: 3,
     name: "Quiz Maker",
-    description: "web de tours de viajes con Reactjs",
+    description: "Quiz game interactive",
     url: "https://brunocami.github.io/quiz",
     githubUrl: "https://github.com/brunocami/quiz",
   },

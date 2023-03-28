@@ -48,7 +48,7 @@ function About(props) {
                                 ))}
                             </div>
                             <div className="about__button d__flex align__items__center">
-                                <a href=""><button className='about btn pointer' onClick={saveFile}>Download CV</button></a>
+                                {/* <a href=""><button className='about btn pointer' onClick={saveFile}>Download CV</button></a> */}
                                 <button className='about btn pointer' onClick={props.goToContact}>Contacto</button>
                             </div>
                         </div>

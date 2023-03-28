@@ -1,9 +1,9 @@
 import React from "react";
 import "./Project.css";
-import Portfolio1 from '../../assets/images/portfolio-1.jpg'
-import Portfolio2 from '../../assets/images/portfolio-2.jpg'
-import Portfolio3 from '../../assets/images/portfolio-3.jpg'
-import Portfolio4 from '../../assets/images/portfolio-4.jpg'
+import Portfolio1 from '../../assets/images/travel.jpg'
+import Portfolio2 from '../../assets/images/nft.jpg'
+import Portfolio3 from '../../assets/images/wallet.png'
+import Portfolio4 from '../../assets/images/quiz-time.jpg'
 import { ProjectData } from '../../constants/constants';
 import { FaExternalLinkAlt} from 'react-icons/fa';
 
@@ -26,7 +26,7 @@ function Project(props) {
               <a href={url} className="pointer relative">
                 <div className="project__box__img pointer relative">
                   <div className="project__img__box">
-                    {name==='Travel Tours' ?  <img src={Portfolio1} alt="" className="project__img" /> : name==='Reviews Gallery' ?  <img src={Portfolio2} alt="" className="project__img" /> : name==='Birthay Reminder' ?  <img src={Portfolio3} alt="" className="project__img" /> : <img src={Portfolio4} alt="" className="project__img" />}
+                    {name==='Travel Tours' ?  <img src={Portfolio1} alt="" className="project__img" /> : name==='NFT Gallery' ?  <img src={Portfolio2} alt="" className="project__img" /> : name==='Crypto Wallet' ?  <img src={Portfolio3} alt="" className="project__img" /> : <img src={Portfolio4} alt="" className="project__img" />}
                   </div>
                   <div className="mask__effect"></div>
                 </div>
