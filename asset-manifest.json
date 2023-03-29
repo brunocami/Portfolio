@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.500b1435.css",
-    "main.js": "/Portfolio/static/js/main.f139fbe7.js",
+    "main.js": "/Portfolio/static/js/main.d044a3b7.js",
     "static/media/wallet.png": "/Portfolio/static/media/wallet.c7ec61fda4fa68649d89.png",
     "static/media/resume.png": "/Portfolio/static/media/resume.854463083d7fff1b3f47.png",
     "static/media/nft.jpg": "/Portfolio/static/media/nft.90e2b01a14540fdbf557.jpg",
@@ -10,10 +10,10 @@
     "static/media/resume[2023]_english.pdf": "/Portfolio/static/media/resume[2023]_english.167314dbb45bd8d4ebf3.pdf",
     "index.html": "/Portfolio/index.html",
     "main.500b1435.css.map": "/Portfolio/static/css/main.500b1435.css.map",
-    "main.f139fbe7.js.map": "/Portfolio/static/js/main.f139fbe7.js.map"
+    "main.d044a3b7.js.map": "/Portfolio/static/js/main.d044a3b7.js.map"
   },
   "entrypoints": [
     "static/css/main.500b1435.css",
-    "static/js/main.f139fbe7.js"
+    "static/js/main.d044a3b7.js"
   ]
 }
