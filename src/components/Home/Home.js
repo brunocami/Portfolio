@@ -17,7 +17,7 @@ function Home(props) {
                                 WELCOME TO MY WORLD
                             </h1>
                             <h2 className="home__text pz__10">
-                                Hellow, I'm Bruno Cami
+                                Hello, I'm Bruno Cami
                             </h2>
                             <h3 className="home__text sweet">
                                 Full Stack Developer
