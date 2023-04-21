@@ -3,7 +3,7 @@ import './About.css';
 import { AboutData } from '../../constants/constants'
 import MiFoto from '../../assets/images/resume.png';
 import { saveAs } from "file-saver";
-import resume from "../../assets/Resume/resume[2023]_english.pdf"; // Import the file
+import resume from "../../assets/Resume/CV_BRUNO_CAMI.pdf"; // Import the file
 
 function About(props) {
 
@@ -29,16 +29,7 @@ function About(props) {
                         </h1>
                         <div className="about__meta">
                             <p className="about__text p__color">
-                                In 2022 i’ve graduated as an industrial designer and I’ve been
-                                studying web development since 2020. In all these years I’ve taken
-                                Full Stack, Advanced Javascript, ReactJs development and Data
-                                Science course and i’ve learn many skills in diferent technologies.
-                            </p>
-                            <p className="about__text p__color">
-                                I have 1 year experience working as a Front End developer at
-                                ReachOut, where I was able to put my knwoledge into practice and
-                                learned the work dynamics of an IT team.
-                                I am currently available to start working full time.
+                                As a full stack web developer, my biggest motivation is to create innovative technological solutions that improve people's lives. With one year of experience at Reachout, I have collaborated on full stack projects and developed my front-end development skills. Additionally, thanks to my training in industrial design, I have a unique perspective to tackle the challenges of technology and design. If chosen, you can expect a creative and results-oriented approach to any project I tackle.
                             </p>
 
                             <div className="aptitudes">
